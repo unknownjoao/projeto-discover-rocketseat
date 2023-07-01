@@ -5,8 +5,8 @@ function toggleMode() {
     const img = document.querySelector('#profile img')
 
     if(html.classList.contains('light')) {
-        img.setAttribute('src', './assets/avatar-light.png')
-        img.setAttribute('alt', 'Foto do Mayk Brito com óculos escuro.')
+        img.setAttribute('src', './assets/avatar.png')
+        img.setAttribute('alt', 'Foto do João Lucas gerada por uma IA.')
     } else {
         img.setAttribute('src', './assets/avatar.png')
     }
